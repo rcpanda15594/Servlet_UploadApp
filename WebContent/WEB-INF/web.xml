@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+<servlet-name>UplApp</servlet-name>
+<servlet-class>com.nt.servlet.UploadServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UplApp</servlet-name>
+<url-pattern>/uploadurl</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>upload.html</welcome-file>
+</welcome-file-list>
+</web-app>
